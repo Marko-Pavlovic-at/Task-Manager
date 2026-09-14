@@ -92,10 +92,12 @@ Mark DONE per line, not per step.
 0. Setup
     - Delete Basic React stuff DONE
     - Heading + Button DONE
-    - Basic CSS Styling
+    - Basic CSS Styling DONE
 
-1. Feature name
-    - action
-    - action
+1. Add Project Button
+    - create empty array
+    - create addProject function
+    - addProject changes the array map? it needs an object with id and name
+    - create a card with the data
 
 
