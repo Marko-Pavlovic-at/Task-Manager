@@ -2,7 +2,7 @@ function App(){
   return(
     <>
     <h1>Task Manager</h1>
-    <button>Create Project</button>
+    <button className="button greenBtn ">Add Project</button>
     </>
   )
 }

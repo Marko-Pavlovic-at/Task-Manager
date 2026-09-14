@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Inter:wght@400;500;600&display=swap');
+
+:root{
+    /* CSS HEX — base */
+--void: #07060F;          /* page background, the deep space black */
+--surface: #14112B;       /* cards, panels */
+--surface-raised: #1F1A3D; /* hover state, nested task rows */
+--border: #322A5C;        /* hairlines between cards */
+
+/* text */
+--starlight: #EFEAFB;     /* primary text */
+--muted: #9990C2;         /* secondary text, labels, empty states */
+
+/* accents */
+--periwinkle: #8B78FF;    /* primary action, active nav, focus ring */
+--periwinkle-deep: #5B47D6; /* pressed state */
+--nova-pink: #F3A6DC;     /* highlights, XP-ish flourishes, selected project */
+--aurora-cyan: #6FE6E4;   /* secondary accent, progress bars */
+
+/* semantic — buttons */
+--confirm: #4FD6A0;       /* save / mark done, mint that fits the cool palette */
+--confirm-deep: #2FB283;
+--danger: #FF5C7A;        /* delete, pulled from the warm pink in the streaks */
+--danger-deep: #D63D5B;
+--cancel: transparent;    /* cancel = ghost button */
+--cancel-text: #9990C2;
+--cancel-border: #322A5C;
+
+  
+
+}
+
+body{
+    background-color: var(--void);
+    color: var(--starlight);
+    font-family: "Chakra Petch", sans-serif;
+  
+}
+
+#root{
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+.greenBtn{
+    background-color: var(--confirm);
+    color: var(--void);
+}

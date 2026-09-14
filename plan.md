@@ -91,7 +91,7 @@ Mark DONE per line, not per step.
 
 0. Setup
     - Delete Basic React stuff DONE
-    - Heading + Button
+    - Heading + Button DONE
     - Basic CSS Styling
 
 1. Feature name
