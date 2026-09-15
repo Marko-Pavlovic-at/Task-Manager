@@ -81,3 +81,10 @@ input{
     background-color: var(--surface-raised);
     text-align: center;
 }
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
