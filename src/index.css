@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Inter:wght@400;500;600&display=swap');
-
 :root{
     /* CSS HEX — base */
 --void: #07060F;          /* page background, the deep space black */
@@ -26,44 +24,60 @@
 --cancel-text: #9990C2;
 --cancel-border: #322A5C;
 
-  
+*{
+    margin: 0;
+    
+}
 
+h1{
+    margin: 1rem;
 }
 
 body{
+   margin: 0;
+   padding: 0;
+   background-color: var(--void);
+   
+  }
+
+}
+main{
     background-color: var(--void);
     color: var(--starlight);
-    font-family: "Chakra Petch", sans-serif;
-  
-}
-
-#root{
-      display: flex;
+    min-height: 100vh;
+    display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
+
 }
 
 .button{
     border: none;
-    border-radius: 0.5rem;
+    border-radius: 0.8rem;
     padding: 0.5rem;
 }
 
 .greenBtn{
-    background-color: var(--confirm);
-    color: var(--void);
-}
-
-.projectCard{
-    border: 1px solid var(--periwinkle);
-    padding: 1rem;
-    margin: 1rem;
+    background-color: var(--nova-pink);
+    color: var(--surface-raised);
 }
 
 input{
-    background-color: var(--surface-raised);
-    color: var(--starlight);
+    background-color: var(--surface);
     border: none;
+    color: var(--starlight);
+}
+
+.projectCards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
+.projectCard{
+    border: 1px solid var(--periwinkle-deep);
+    padding: 2rem;
+    background-color: var(--surface-raised);
+    text-align: center;
 }
